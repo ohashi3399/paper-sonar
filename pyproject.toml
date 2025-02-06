@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "swimmer"
+version = "0.1.0"
+description = ""
+authors = ["ohashi3399 <rspeech3399@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+langchain-community = "^0.3.16"
+langchain = "^0.3.17"
+langchain-huggingface = "^0.1.2"
+unstructured = "^0.16.20"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
