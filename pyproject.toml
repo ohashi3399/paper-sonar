@@ -11,6 +11,7 @@ langchain-community = "^0.3.16"
 langchain = "^0.3.17"
 langchain-huggingface = "^0.1.2"
 unstructured = "^0.16.20"
+faiss-cpu = "^1.10.0"
 
 
 [build-system]
