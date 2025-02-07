@@ -3,6 +3,8 @@
 # case study
 
 ```
+quey: Bi-Factorial Preference Optimization: Balancing Safety-Helpfulness in Language Models
+
 title: Common Pitfalls of Margin-based Preference Optimization in Language Model Alignment
 url: https://iclr.cc//virtual/2025/poster/29259
 abstruct: Reinforcement Learning from Human Feedback (RLHF) has become the predominant approach for aligning language models (LMs) to be more helpful and less harmful. At its core, RLHF uses a margin-based loss for preference optimization, which specifies the ideal LM behavior only in terms of the difference between preferred and dispreferred responses. This under-specification of ideal behavior for each response individu
