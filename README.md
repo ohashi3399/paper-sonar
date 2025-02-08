@@ -4,6 +4,10 @@
 
 - A code that suggests papers similar to input keywords
 
+## Demo using Huggingface spaces
+
+- You can try from [here](https://huggingface.co/spaces/ryota39/iclr2025-sonar)
+
 ## Target
 
 - Accepted papers from ICLR2025

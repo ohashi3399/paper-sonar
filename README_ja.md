@@ -1,8 +1,13 @@
 # ᯤpaper-sonar
 - 入力キーワードと類似した論文を提示するコード
 
+## デモ
+
+- Hugginface spacesで[デモ](https://huggingface.co/spaces/ryota39/iclr2025-sonar)を公開
+
 ## 対象
 - ICLR2025のaccepted papers
+
 
 > [!NOTE]
 > 論文のタイトルとアブストラクトとURLが取得できる会議であれば、対象ファイルを入れ替えれば流用できます
