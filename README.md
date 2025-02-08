@@ -18,8 +18,8 @@
 ## Process
 
 - Concatenate title, first 600 characters of abstract, and URL in plain text
-- Convert to vectorstore using embedding model
-- Output best-n similar papers using approximate nearest neighbor search
+- Convert to vectorstore using [embedding model](https://huggingface.co/intfloat/multilingual-e5-large-instruct)
+- Output best-n similar papers using [approximate nearest neighbor search](https://github.com/facebookresearch/faiss)
 
 
 > [!NOTE]
@@ -51,7 +51,7 @@ python src/build_db
 - `requirements.txt`
 
 
-## Case Study
+## Example
 
 `query`: β-calibration of Language Model Confidence Scores for Generative QA
 `suggestion`:

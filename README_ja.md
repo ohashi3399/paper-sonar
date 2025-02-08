@@ -43,7 +43,7 @@ python src/build_db
   - `data/db`フォルダと、フォルダ内に作成したvectorstoreファイル
   - requirements.txt
 
-# case study
+# 例
 
 - `query`: `β  -calibration of Language Model Confidence Scores for Generative QA`
 - `suggestion`
