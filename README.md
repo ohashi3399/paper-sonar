@@ -8,7 +8,7 @@
 
 - Accepted papers from ICLR2025
 
-> [!TIPS]
+> [!NOTE]
 > This can be repurposed for any conference where paper titles, abstracts, and URLs are available by simply replacing the target files
 
 ## Process
@@ -35,7 +35,7 @@ python src/build_db/json2txt.py
 3. Convert to vectorstore
 
 ```python
-Copypython src/build_db
+python src/build_db
 ```
 
 ## HuggingFace demo
