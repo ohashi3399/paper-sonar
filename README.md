@@ -27,7 +27,7 @@
 
 ## Implementation
 
-1. Download accepted papers from this link
+1. Download accepted papers from [this link](https://iclr.cc/Downloads/2025)
   - Place in `data` directory
 
 2. Convert to txt file

@@ -3,7 +3,7 @@
 
 ## デモ
 
-- Hugginface spacesで[デモ](https://huggingface.co/spaces/ryota39/iclr2025-sonar)を公開
+- [こちら](https://huggingface.co/spaces/ryota39/iclr2025-sonar)で公開
 
 ## 対象
 - ICLR2025のaccepted papers
@@ -40,7 +40,7 @@ python src/build_db
 - Huggingfaceアカウントで新規のspacesを作成
 - 以下のファイルを作成したspacesに移動
   - app.py
-  - `data/db`フォルダに作成したvectorstoreファイル
+  - `data/db`フォルダと、フォルダ内に作成したvectorstoreファイル
   - requirements.txt
 
 # case study
