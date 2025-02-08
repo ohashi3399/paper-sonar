@@ -9,7 +9,9 @@ def parse_args():
     parser = argparse.ArgumentParser(description="build DB")
     parser.add_argument("--data_dir", type=str, default="./data/txt")
     parser.add_argument("--index_path", type=str, default="./data/db")
-    parser.add_argument("--model_name", type=str, default="BAAI/bge-m3")
+    parser.add_argument(
+        "--model_name", type=str, default="intfloat/multilingual-e5-large-instruct"
+    )
     parser.add_argument("--chunk_size", type=int, default=600)
     parser.add_argument("--chunk_overlap", type=int, default=0)
     return parser.parse_args()

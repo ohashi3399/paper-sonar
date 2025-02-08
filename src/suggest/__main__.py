@@ -29,7 +29,11 @@ def setup_retriever(
 
 def parse_args():
     parser = argparse.ArgumentParser(description="swimmer for paper")
-    parser.add_argument("--embedding_model_name", type=str, default="BAAI/bge-m3")
+    parser.add_argument(
+        "--embedding_model_name",
+        type=str,
+        default="intfloat/multilingual-e5-large-instruct",
+    )
     parser.add_argument("--vector_store_path", type=str, default="./data/db")
     return parser.parse_args()
 
@@ -51,7 +55,7 @@ def main():
         retriever = setup_retriever(vector_store, n=10)
 
         relevant_docs = retriever.get_relevant_documents(query)
-        for relevant_doc in relevant_docs[1:]:
+        for relevant_doc in relevant_docs:
             content = relevant_doc.page_content
             url = content.split("<BEGIN_URL>")[-1].split("<END_URL>")[0]
             abstract = content.split("\\n")[-1].split("<BEGIN_URL>")[0]
