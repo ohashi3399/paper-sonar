@@ -1,9 +1,17 @@
-# swimmer
-- 論文のタイトルと概要から、関連論文を推薦するコード
+# 🏊swimmer
+- 論文のタイトルを入力に、類似した論文を提示するコード
 
+## 対象
+- 論文のタイトルとアブストラクトが取得できる会議
+
+> [!NOTE]
+> 現在はICLR2025のみ対応しています
+
+## 実装手順
 1. タイトルとアブストの先頭500文字とURLを平文で連結
-2. 埋め込みモデルでvectorDBに変換
-3. 近似近傍探索で類似したn件の論文情報を出力
+2. [埋め込みモデル](https://huggingface.co/BAAI/bge-m3)でvectorstoreに変換
+3. [近似最近傍探索](https://github.com/facebookresearch/faiss)で類似したn件の論文情報を出力
+
 
 # case study
 

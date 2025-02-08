@@ -12,6 +12,7 @@ langchain = "^0.3.17"
 langchain-huggingface = "^0.1.2"
 unstructured = "^0.16.20"
 faiss-cpu = "^1.10.0"
+streamlit = "^1.42.0"
 
 
 [build-system]
