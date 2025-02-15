@@ -2,4 +2,4 @@ data/db/
 data/db_bge_m3/
 
 src/**/__pycache__
-src/app/
+src/app/db/
