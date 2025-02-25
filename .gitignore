@@ -1,5 +1,4 @@
-data/db/
-data/db_bge_m3/
+data/iclr2025/
 
 src/**/__pycache__
-src/app/db/
+src/app_*/db/
